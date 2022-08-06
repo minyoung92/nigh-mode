@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB1</title>
+    <script src="scr.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1><a href=1.html>WEB</a></h1>
+    <input class="button" type="button" value="night" onclick="
+    //body
+    var all = document.querySelector('body');  
+    if(document.querySelector('.button').value==='night'){
+    all.style.backgroundColor='rgb(71,71,75)';
+    all.style.color='yellow';
+    document.querySelector('.button').value='day';
+   
+   
+    //link
+    var alink = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alink.length){
+        
+        alink[i].style.color = 'yellow';
+        i = i + 1;
+    }
+
+    }else{
+        all.style.backgroundColor='rgb(92, 92, 182)';
+        all.style.color='black';
+        document.querySelector('.button').value='night';
+
+        var alink = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alink.length){
+        
+        alink[i].style.color = 'gray';
+        i = i + 1;
+    }
+    }
+    ">
+    <ol>
+        <li><a href=html.html>HTML</a></li>
+        <li><a href=css.html>CSS</a></li>
+        <li><a href=javascript.html>JavaScript</a></li>
+    </ol>
+    <img id="cover" src="images/00 Album cover(NaShot).jpeg">
+    <p> Welcome coding`s wolrd<br><strong>My first project</strong><br>enjoy watch</p>
+
+</body>
+</html>

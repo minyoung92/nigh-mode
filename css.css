@@ -1,0 +1,29 @@
+   h1 {
+    text-align: center;
+}
+ol {
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    color:brown;
+    font-size:large;
+    text-align: center;
+}
+.button {
+    width:100px;
+    height: 30px;
+    position:fixed;
+    right: 50px;
+    color: white;
+    background-color: rgb(120, 115, 115);
+}
+#cover {
+    width: 400px;
+    display: block; 
+    margin: 0px auto;
+}
+body {
+    background-color: rgb(92, 92, 182);
+}
